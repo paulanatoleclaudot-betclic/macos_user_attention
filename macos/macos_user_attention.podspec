@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'macos_user_attention'
-  s.version          = '0.0.1'
+  s.version          = '0.0.3'
   s.summary          = 'A Flutter Plugin for MacOS User Attention API'
   s.description      = <<-DESC
   A Flutter Plugin for MacOS User Attention API.
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.author           = { '_' => 'rs457036@gmail.com' }
 
   s.source           = { :path => '.' }
-  s.source_files     = 'Classes/**/*'
+  s.source_files     = 'macos_user_attention/Sources/macos_user_attention/**/*.swift'
   s.dependency 'FlutterMacOS'
 
-  s.platform = :osx, '10.11'
+  s.platform = :osx, '10.14'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end

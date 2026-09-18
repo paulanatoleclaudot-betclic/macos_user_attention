@@ -4,3 +4,7 @@
 
 ## 0.0.2
 * Updated Readme
+
+## 0.0.3
+* Add Swift Package Manager support
+* Requires Flutter 3.24.0 or later
